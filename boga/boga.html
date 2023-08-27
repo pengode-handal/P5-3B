@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="nicepage.css" media="screen" />
     <link rel="stylesheet" href="nicepage-site.css" media="screen" />
     <link rel="stylesheet" href="Landing.css" media="screen" />
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/0hCdE87LyjzAkFO5Ff-v7Hj1/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-ToIRK/fCxk6HZidjy8su24Pn+8FsKiX4QnuO0AfQZBcsd0m8DMaqafsc91h4byqU"></script>
     <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/0hCdE87LyjzAkFO5Ff-v7Hj1/recaptcha__id.js" crossorigin="anonymous" integrity="sha384-SoXzcWp58rP4Ae5cKhSeiY2NC66gwY3Q9sGx3snU7widJOPhwUjWqOIehQfkIwpP"></script>
     <script class="u-script" type="text/javascript" src="//capp.nicepage.com/assets/jquery-3.5.1.min.js" defer=""></script>
@@ -40,6 +42,53 @@
 </head>
 
 <body class="u-body u-xl-mode" data-lang="en">
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="https://sma3jogja.sch.id/wp-content/uploads/2021/05/LOGO-PADMANABA-TRANS-1.png" alt="Angel nggawene, stres kita" class="header__logo-img" />
+                </div>
+                <span class="header__logo-sub">P5 Padmanaba</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="#about" class="header__link"> About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="#bidang" class="header__link">
+            Bidang
+          </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="#contact" class="header__link"> Our Team </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img src="assets/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+                    <img src="assets/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+                </div>
+            </div>
+        </div>
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="#bidang"> Bidang </a>
+                    </li>
+
+                    <li class="header__sm-menu-link">
+                        <a href="#contact"> Our Team </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- BAGIAN HEADER (OLD) -->
     <!--<header class="u-clearfix u-header u-header" id="sec-14ca">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <a href="https://sma3jogja.sch.id/" class="u-image u-logo u-image-1">
@@ -183,12 +232,12 @@
     </section>
 
     <section class="u-clearfix u-grey-10 u-section-3" id="sec-15ad">
-        <img class="u-expanded-width u-image u-image-1 animated customAnimationIn" src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/ggg5-min.jpg" data-image-width="1980" data-image-height="1320" data-animation-name="customAnimationIn" data-animation-duration="1500"
-            style="will-change: transform, opacity; animation-duration: 500ms" />
+        <img class="u-expanded-width u-image u-image-1 animated customAnimationIn" src="https://media.istockphoto.com/id/1305934854/photo/apem.jpg?s=170667a&w=0&k=20&c=Yy_PB3LNnTdJ3wG1lyyvZ-EnUkVoGb5ls86rlqgGEyg=" data-image-width="1980" data-image-height="1320"
+            data-animation-name="customAnimationIn" data-animation-duration="1500" style="will-change: transform, opacity; animation-duration: 500ms" />
         <div class="u-container-align-left u-container-style u-group u-shape-rectangle u-white u-group-1 animated customAnimationIn" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" style="will-change: transform, opacity; animation-duration: 500ms">
             <div class="u-container-layout u-valign-middle u-container-layout-1">
                 <h3 class="u-align-left u-text u-text-1">Latar Belakang</h3>
-                <p class="u-align-left u-text u-text-2">
+                <p class="u-align-left u-text u-text-2" style="font-family:sans-serif !important; font-size: 16px; text-align: justify;">
                     Untuk lebih mengenalkan makanan tradisional kepada generasi Z yang sudah kami inovasikan sebaik mungkin agar kaum milenial tau dan suka akan inovasi dari makanan tradisional dan agar makanan tradisional mampu bersaing dengan makanan makanan modern yang
                     sekarang sudah banyak sekali inovasinya. Kami mengembangkan makanan tradisional agar keberadaan nya tetap ada dan mampu eksis dikalangan anak muda.
                 </p>
@@ -198,12 +247,14 @@
 
     <section class="u-clearfix u-white u-section-5" id="carousel_72f8">
         <div class="u-expanded-width u-grey-10 u-shape u-shape-rectangle u-shape-1"></div>
-        <img src="//images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/a1f35b6fda2f573d96b40c32/re55-min.jpg" class="u-align-left u-image u-image-1" />
+        <img src="https://www.gotravelly.com/blog/wp-content/uploads/2020/04/rujak-es-krim-pak-nardi-1200x675.jpg" class="u-align-left u-image u-image-1" />
         <div class="u-container-align-left u-container-style u-group u-shape-rectangle u-white u-group-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
             <div class="u-container-layout u-valign-middle u-container-layout-1">
                 <h3 class="u-align-left u-text u-text-1">Projek</h3>
-                <p class="u-align-left u-text u-text-2">
-                    Untuk gelar karya kami akan menyediakan 10 stand makanan atau minuman. Yang utama ada 3 stand yaitu rujak es krim, dawet, dan apem. Lalu 7 lainnya kami akan mencari penjual jajanan tradisional atau sebagainya. Kami juga menjual bakpia daging sebagai tambahan
+                <p class="u-align-left u-text u-text-2" style="font-family: sans-serif !important; font-size: 16px; text-align: justify;">
+                    Dalam perhelatan gelar karya kami, kami telah merancang 10 stan kuliner yang variatif dan beragam. Tiga stan utama yang menjadi fokus adalah stan rujak es krim yang segar dan inovatif, stan dawet dengan cita rasa tradisional yang lezat, serta stan apem
+                    yang menghadirkan rasa kenangan. Selanjutnya, kami akan mengundang tujuh penjual jajanan tradisional pilihan untuk berpartisipasi, menawarkan berbagai hidangan lokal yang kaya akan cita rasa. Sebagai tambahan istimewa, kami juga akan
+                    menyajikan bakpia daging yang istimewa, menjadikan gelar karya ini sebagai sebuah persembahan kuliner yang memadukan rasa warisan dan kreativitas modern.
                 </p>
             </div>
         </div>
@@ -354,12 +405,43 @@
       </div>
     </section> -->
 
+    <footer>
+        <!-- Footer Bottom Start -->
+        <div class="footer">
+            <div class="brandname">
+                <a href="./index.html">
+                    <h1>PADMA<span>NABA</span></h1>
+                </a>
+            </div>
+            <div class="copy">
+                <p>©2023 <i class="fa-solid fa-heart"></i><a href="#">Padmanaba 81</a></p>
+            </div>
+            <div class="socials">
+                <a href="https://www.youtube.com/channel/UC5NiWAjJgV8nr-FC5aMTDfg" target="_blank" class="social img-container w">
+                    <img src="https://tegalsec.org/images/youtube-svgrepo-com.svg" alt="Tegalsec Official" title="Tegalsec Official">
+                </a>
+                <a href="https://instagram.com/tegalsec" target="_blank" class="social img-container w">
+                    <img src="https://tegalsec.org/images/instagram-svgrepo-com.svg" alt="Instagram" title="@tegalsec">
+                </a>
+                <a href="https://github.com/tegal1337" class="social img-container w">
+                    <img src="https://tegalsec.org/images/github-repo-git-octocat-svgrepo-com.svg" alt="Github" title="Official Github Tegalsec">
+                </a>
+                <a href="mailto:tegaln00bshacker@gmail.com" class="social img-container w">
+                    <img src="https://tegalsec.org/images/email-svgrepo-com.svg" alt="Email" title="tegaln00bshacker@gmail.com">
+                </a>
+
+                <!-- Footer Bottom End -->
+            </div>
+    </footer>
+
+    <!-- FOOTER (OLD) 
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-2b81">
         <div class="u-clearfix u-sheet u-sheet-1">
             <p class="u-small-text u-text u-text-variant u-text-1"> &copy; <em id="date">2023</em> P5 Padmanaba
             </p>
         </div>
-    </footer>
+    </footer> -->
+
     <!-- LINK OPSIONAL 
     <section class="u-backlink u-clearfix u-grey-80">
       <a
@@ -375,6 +457,8 @@
                             <a class="u-link" href="" target="_blank">
                                 <span>Website Builder Software</span> </a>.
                             </section>-->
+    <script src="particles.js"></script>
+    <script src="boga.js"></script>
 </body>
 
 </html>
