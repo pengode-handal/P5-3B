@@ -744,7 +744,7 @@ textarea {
     align-items: center;
     justify-content: space-between;
     padding: 0rem 4rem;
-    background-color: rgb(33, 36, 50);
+    background-color: rgb(27, 29, 47);
 }
 
 @media only screen and (max-width: 56.25em) {
