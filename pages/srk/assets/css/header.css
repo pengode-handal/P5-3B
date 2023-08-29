@@ -80,7 +80,6 @@ a {
 @media only screen and (max-width: 56.25em) {
     .header__content {
         padding: 0 2rem;
-        background-color: rgb(33, 36, 50);
     }
 }
 
@@ -205,7 +204,7 @@ a {
     .header__sm-menu--active {
         visibility: visible;
         opacity: 1;
-        background-color: #212432;
+        background-color: rgb(27, 29, 47);
     }
 }
 

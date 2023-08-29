@@ -456,7 +456,9 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-    width: 55px;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
 }
 
 .background-header .main-nav .logo {
@@ -484,7 +486,7 @@ Header Style
 }
 
 .background-header .main-nav .nav {
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 .header-area .main-nav .nav li {
@@ -505,7 +507,6 @@ Header Style
     transition: all 0.3s ease 0s;
     border: transparent;
     padding: 8px 15px;
-    border-radius: 18px;
     letter-spacing: 1px;
 }
 
@@ -737,12 +738,10 @@ Header Style
         margin-top: 70px !important;
     }
     .header-area .main-nav .nav li:first-child {
-        border-top: 1px solid #eee;
+        border-top: 0px
     }
     .header-area .main-nav .nav li {
         width: 100%;
-        background: #fff;
-        border-bottom: 1px solid #eee;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
@@ -755,7 +754,6 @@ Header Style
         color: #fff !important;
     }
     .header-area .main-nav .nav li a:hover {
-        background: #fff !important;
         color: #7453fc!important;
     }
     .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -1693,7 +1691,7 @@ Details Page Style
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 120px 0px 120px 0px;
+    padding: 85px 0px 85px 0px;
     position: relative;
 }
 
@@ -1943,43 +1941,43 @@ Author Page Style
     color: #7453fc;
 }
 
-.author-page .right-info {
+.right-info {
     background-color: #282b2f;
     border: 1px solid #404245;
     padding: 20px 30px;
     border-radius: 20px;
-    margin-left: 100px;
+    text-align: justify;
 }
 
-.author-page .right-info .info-item {
+.right-info .info-item {
     margin-bottom: 20px;
 }
 
-.author-page .right-info i {
+.right-info i {
     color: #7453fc;
     font-size: 22px;
 }
 
-.author-page .right-info h6 {
+.right-info h6 {
     font-size: 20px;
     color: #7453fc;
     margin-top: 4px;
 }
 
-.author-page .right-info h6 em {
+.right-info h6 em {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     color: #fff;
 }
 
-.author-page .right-info h5 {
+.right-info h5 {
     font-size: 20px;
     color: #afafaf;
     margin-top: 10px;
 }
 
-.author-page .right-info .main-button a {
+.right-info .main-button a {
     width: 100%;
     text-align: center;
 }
