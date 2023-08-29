@@ -1,0 +1,145 @@
+/* Nek ono lek berubah, ubah ubah dewe yo sesel aku*/
+
+:root {
+    --warna-bg: #111823;
+    --copyright: #ccc;
+}
+
+
+/* 
+Variabelnya ganti sendiri ya bro 
+Untuk foto yang ga ada, donlod wae dari github nek ra akali dewe
+*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 56%;
+    }
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 65%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__links li {
+    list-style: none;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: Poppins;
+}
+
+.img-container {
+    display: block;
+    opacity: 0.875;
+}
+
+.img-container.h img {
+    height: 100%;
+}
+
+.img-container.w img {
+    width: 100%;
+}
+
+.copy {
+    font-size: 1.75rem;
+    color: var(--copyright);
+    line-height: 1.7;
+}
+
+
+/* Membuat bagian copyright dan lain lain */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+    background-color: var(--warna-bg);
+}
+
+@media (max-width: 39.9375em) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+.footer .brandname {
+    opacity: 0.9;
+}
+
+.footer .brandname:hover {
+    opacity: 1;
+}
+
+.footer .brandname a {
+    font-size: 1.27rem;
+    color: white;
+}
+
+.footer .brandname a:hover {
+    color: #d10024;
+    font-size: 1.27rem;
+}
+
+.footer .copy {
+    text-align: center;
+}
+
+@media (max-width: 39.9375em) {
+    .footer .copy {
+        margin-bottom: 1rem;
+    }
+}
+
+.footer .socials {
+    display: flex;
+    align-items: center;
+}
+
+.footer .socials .social {
+    width: 2.15rem;
+    transition: all 0.2s;
+}
+
+.footer .socials .social:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.footer .socials .social:hover {
+    opacity: 0.9;
+}
