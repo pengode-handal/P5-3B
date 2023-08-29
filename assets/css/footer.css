@@ -40,7 +40,7 @@ body {
     line-height: 1.5;
     font-family: sans-serif;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     font-family: 'Source Sans Pro', sans-serif;
 }
 

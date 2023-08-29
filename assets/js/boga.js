@@ -39,11 +39,3 @@ headerLogoConatiner.addEventListener('click', () => {
 
 var color = '#75A5B7';
 var maxParticles = 100;
-
-Particles.init({
-    selector: '#particles-js',
-    color: color,
-    maxParticles: maxParticles,
-    connectParticles: true,
-    speed: 0.5
-});
