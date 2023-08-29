@@ -12,8 +12,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <!-- <link rel="stylesheet" href="https://website254122.nicepage.io/Page-2.css"> -->
     <link rel="stylesheet" href="https://website254122.nicepage.io/Page-2.css">
+    <link rel="stylesheet" href="tekno/assets/js/tes.css">
+    <script src="tekno/assets/js/isotope.min.js"></script>
+    <script src="tekno/assets/js/owl-carousel.js"></script>
+
+    <script src="tekno/assets/js/tabs.js"></script>
+    <script src="tekno/assets/js/popup.js"></script>
+    <script src="tekno/assets/js/custom.js"></script>
     <style>
         body {
             font-family: 'Poppins';
@@ -91,8 +97,7 @@
             <h2 class="heading heading-sec heading-sec__mb-med">
                 <span class="heading-sec__main">About</span>
                 <span class="heading-sec__sub">
-            Gelar karya adalah pertunjukkan hasil dari proyek kurikulum merdeka, lebih tepatnya P5, yang dilakukan dengan melakukan suatu observasi dan membuat suatu laporan, kemudian hasil dari observasi tersebut akan ditampilkan dalam pertunjukan Gelar Karya ini dengan tema Kearifan Lokal.
-          </span>
+            Gelar karya adalah pertunjukkan hasil dari proyek kurikulum merdeka, lebih tepatnya P5, yang dilakukan dengan melakukan suatu observasi dan membuat suatu laporan, kemudian hasil dari observasi tersebut akan ditampilkan dalam pertunjukan Gelar Karya ini dengan tema Kearifan Lokal.<br> (Gelar Karya ini akan dilaksanakan pada tanggal 31 Agustus jam 08.30 di Lapangan Tengah)
             </h2>
             <div class="about__content gambaran">
                 <!-- <div class="u-align-center-md u-align-center-sm u-align-center-xs u-countdown u-countdown-1" data-target-date="Sat, 26 Aug 2023 18:09:00 GMT" data-type="to-date" data-for="per-visitor" data-time-left="360m" data-timer-id="5ce0" data-target-number="100"
@@ -149,11 +154,11 @@
                         color: white;
                         background-color: #7843e9;
                         position: static;
-                        padding: 20px 29px;
-                        width: 120.806px;
-                        height: 137.5px;
+                        padding: min(20px, 2.5vw) min(29px, 3vw);
+                        /* width: 120.806px; */
+                        /* height: 137.5px; */
                         /* Padding di semua sisi */
-                        margin-left: 20px;
+                        margin: auto min(10px, 1.2vw);
                         flex-basis: 0;
                         border-radius: 22px !important;
                         pointer-events: auto;
@@ -161,7 +166,7 @@
                     }
                     
                     .label {
-                        font-size: 15px;
+                        font-size: min(15px, 3vw);
                         font-weight: 700;
                         text-transform: uppercase;
                     }
@@ -172,11 +177,13 @@
                         width: auto;
                         height: auto;
                         position: absolute;
+                        /* top: 50%;
+                        left: 50%; */
                     }
                     
                     .nomer {
-                        font-size: 50px;
-                        font-weight: 600
+                        font-size: min(50px, 10vw);
+                        font-weight: 600;
                     }
                     
                     .kontener {
@@ -191,9 +198,9 @@
                 </style>
 
                 <div class="kotakan gambaran">
-                    <div class="label kotakann">
+                    <!-- <div class="label kotakann">
                         AAAA
-                    </div>
+                    </div> -->
                     <div class="hitung-mundur">
                         <div id="days" class="nomer"> </div>
                         <div class="label">Days</div>
@@ -230,12 +237,12 @@
             <div class="projects__content">
                 <div class="projects__row">
                     <div class="projects__row-img-cont">
-                        <img src="public/assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+                        <img src="https://lh3.google.com/u/0/d/1AlnBH1-pUg1fNJ8f8bE6H1bH9mvtMOyb=w1920-h923-iv1" alt="Software Screenshot" class="projects__row-img gambaran" style=" border-radius: 5px; box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);" loading="lazy" />
                     </div>
                     <div class="projects__row-content">
                         <h3 class="projects__row-content-title">Seni Pertunjukan</h3>
                         <p class="projects__row-content-desc">
-                            "Cycle of Life" adalah judul pementasan yang akan ditampilkan oleh bidang Seni Pertunjukan pada gelar karya "Kearifan Lokal" kali ini. Pementasan ini menggambungkan berbagai divisi seperti divisi musik, divisi teater, divisi tari, dan lainnya.
+                            "Cycle of Life" adalah judul pementasan yang akan ditampilkan pada gelar karya "Kearifan Lokal" kali ini. Pementasan ini menggambungkan berbagai divisi seperti divisi musik, divisi teater, divisi tari, dan lainnya.
                         </p>
                         <a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">About SP</a
               >
@@ -243,10 +250,11 @@
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img
-                src="public/assets/jpeg/project-mockup-example.jpeg"
+                <img
+                src="https://lh3.google.com/u/0/d/1JycoytPeXicgNZgcukE1aBSwH2QW4Du4=w1920-h923-iv2"
                 alt="Software Screenshot"
-                class="projects__row-img"
+                class="projects__row-img gambaran"
+                style=" border-radius: 5px; box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);"
                 loading="lazy"
               />
             </div>
@@ -264,17 +272,18 @@
           </div>
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img
-                src="public/assets/jpeg/project-mockup-example.jpeg"
+                <img
+                src="https://lh3.google.com/u/0/d/1dasb8KtSJZyyG53jfARQNCFccHy1RL8n=w1920-h923-iv1"
                 alt="Software Screenshot"
-                class="projects__row-img"
+                class="projects__row-img gambaran"
+                style=" border-radius: 5px; box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Seni Rupa</h3>
               <p class="projects__row-content-desc">
-                Stand bertemakan kearifan lokal Indonesia adalah hal yang akan dibuat oleh bidang Seni Rupa. Bidang Seni rupa akan menyiapkan stand untuk membuat batik dan gerabah sebagai contoh dari salah satu stand mereka.</p>
+                Stand bertemakan kearifan lokal Indonesia adalah hal yang akan dibuat oleh Bidang Seni Rupa. Bidang Seni rupa akan menyiapkan stand untuk membuat batik dan gerabah sebagai salah satu contoh dari stand mereka.</p>
               <a
                 href="./project-3.html"
                 class="btn btn--med btn--theme dynamicBgClr"
@@ -286,16 +295,17 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="public/assets/jpeg/project-mockup-example.jpeg"
+                src="https://lh3.google.com/u/0/d/1bD8cvCsXwgeNXBXsN_TWk1ETqHXdbh50=w1920-h923-iv1"
                 alt="Software Screenshot"
-                class="projects__row-img"
+                class="projects__row-img gambaran"
+                style=" border-radius: 5px; box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);"
                 loading="lazy"
               />
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Tata Boga</h3>
               <p class="projects__row-content-desc">
-                Bidang Tata Boga menjual makanan tradisional yang telah diinovasi agar dapat lebih diminati oleh kaum-kaum muda dan dapat bersaing dengan makanan modern. 
+                Bidang Tata Boga menjual makanan tradisional yang telah diinovasi agar dapat lebih diminati oleh kaum-kaum muda dan sebagai camilan kepada siapa saja yang datang ke event ini.
               </p>
               <a
                 href="./project-3.html"

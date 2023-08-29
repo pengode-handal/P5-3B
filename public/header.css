@@ -1,0 +1,235 @@
+:root {
+    --warna-bg: #111823;
+    --copyright: #ccc;
+}
+
+
+/* 
+Variabelnya ganti sendiri ya bro 
+Untuk foto yang ga ada, donlod wae dari github nek ra akali dewe
+*/
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 56%;
+    }
+}
+
+@media only screen and (min-width: 112.5em) {
+    html {
+        font-size: 65%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__links li {
+    list-style: none;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: Poppins;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #000;
+    background: #fff;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    background-color: rgb(27, 29, 47);
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__content {
+        padding: 0 2rem;
+        background-color: rgb(33, 36, 50);
+    }
+}
+
+.header__logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    transition: color .3s;
+}
+
+.header__logo-container:hover {
+    color: #fcfeff;
+}
+
+.header__logo-img-cont {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__logo-img-cont {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin-right: 1.2rem;
+    }
+}
+
+.header__logo-img {
+    height: 84.284%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.header__logo-sub {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fceded;
+}
+
+.header__logo-sub:hover {
+    color: #ff0000;
+}
+
+.header__links {
+    display: flex;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .header__links {
+        display: none;
+    }
+}
+
+.header__link {
+    padding: 2.2rem 3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #fceded;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: color .3s;
+}
+
+.header__link:hover {
+    color: #0062b9;
+}
+
+@media only screen and (max-width: 56.25em) {
+    .header__link {
+        padding: 3rem 1.8rem;
+        font-size: 1.5rem;
+    }
+}
+
+.header__main-ham-menu-cont {
+    display: none;
+    width: 3rem;
+    padding: 2.2rem 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .header__main-ham-menu-cont {
+        display: block;
+    }
+}
+
+.header__main-ham-menu {
+    width: 100%;
+}
+
+.header__main-ham-menu-close {
+    width: 100%;
+}
+
+.header__sm-menu {
+    background: #212432;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header__sm-menu--active {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .header__sm-menu--active {
+        visibility: visible;
+        opacity: 1;
+        background-color: #212432;
+    }
+}
+
+.header__sm-menu-link a {
+    display: block;
+    text-decoration: none;
+    padding: 2.5rem 3rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+.header__sm-menu-link a:hover {
+    color: #0062b9;
+}
+
+.header__sm-menu-link:first-child a {
+    border-top: none;
+}
+
+.header__sm-menu-link-last {
+    border-bottom: 0;
+}

@@ -278,7 +278,7 @@ textarea {
     .home-hero {
         height: unset;
         min-height: unset;
-        background: linear-gradient(to right, #0d1116e3, #0d1116e3), url(https://dopefolio.netlify.app/assets/svg/common-bg.svg);
+        /* background: linear-gradient(to right, #0d1116e3, #0d1116e3), url(https://dopefolio.netlify.app/assets/svg/common-bg.svg); */
     }
 }
 
@@ -346,8 +346,6 @@ textarea {
     .home-hero__content {
         padding: 19rem 0 13rem 0;
         margin: auto;
-        position: static;
-        transform: translate(0, 0);
     }
 }
 
@@ -772,7 +770,6 @@ textarea {
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #212432;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -1045,11 +1042,12 @@ textarea {
     }
 }
 
-@media (max-width: 600px) {
+
+/* @media (max-width: 600px) {
     canvas {
         display: none;
     }
-}
+} */
 
 .img-container {
     display: block;
