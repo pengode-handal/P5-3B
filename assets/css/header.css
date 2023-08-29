@@ -1,4 +1,13 @@
-/* Nek ono lek berubah, ubah ubah dewe yo sesel aku*/
+:root {
+    --warna-bg: #111823;
+    --copyright: #ccc;
+}
+
+
+/* 
+Variabelnya ganti sendiri ya bro 
+Untuk foto yang ga ada, donlod wae dari github nek ra akali dewe
+*/
 
 html {
     font-size: 62.5%;
@@ -29,7 +38,7 @@ body {
     line-height: 1.5;
     font-family: sans-serif;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -65,7 +74,7 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0rem 4rem;
-    background-color: rgb(33, 36, 50);
+    background-color: rgb(27, 29, 47);
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -93,7 +102,6 @@ a {
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #212432;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -105,7 +113,7 @@ a {
 }
 
 .header__logo-img {
-    height: 80%;
+    height: 84.284%;
     object-fit: cover;
     object-position: center;
     display: block;
@@ -191,7 +199,6 @@ a {
 .header__sm-menu--active {
     visibility: hidden;
     opacity: 0;
-    background-color: #212432;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -207,9 +214,8 @@ a {
     text-decoration: none;
     padding: 2.5rem 3rem;
     font-size: 1.6rem;
-    color: #ededed;
+    color: #ffffff;
     text-align: right;
-    border-bottom: 1px solid #eee;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -221,9 +227,13 @@ a {
 }
 
 .header__sm-menu-link:first-child a {
-    border-top: 1px solid #eee;
+    border-top: none;
 }
 
 .header__sm-menu-link-last {
     border-bottom: 0;
+}
+
+.d-none {
+    display: none;
 }
