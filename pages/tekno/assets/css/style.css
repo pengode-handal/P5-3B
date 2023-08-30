@@ -507,6 +507,7 @@ Header Style
     transition: all 0.3s ease 0s;
     border: transparent;
     padding: 8px 15px;
+    border-radius: 18px;
     letter-spacing: 1px;
 }
 

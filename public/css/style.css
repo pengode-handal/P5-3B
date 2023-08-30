@@ -369,6 +369,8 @@ textarea {
     grid-gap: 10rem;
     align-items: center;
     justify-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -1354,8 +1356,15 @@ blockquote.u-text.u-indent-20 {
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .3s;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
 }
 
-.gambaran:hover {
-    transform: translateY(-3px);
+@media (min-width: 990px) {
+    .gambaran:hover {
+        transform: translateY(-3px);
+    }
 }
