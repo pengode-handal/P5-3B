@@ -506,7 +506,7 @@ Header Style
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border: transparent;
-    padding: 8px 15px;
+    padding: 7px 15px;
     border-radius: 18px;
     letter-spacing: 1px;
 }
@@ -825,6 +825,7 @@ Banner Style
 
 .main-banner p {
     margin-top: 20px;
+    text-align: justify;
 }
 
 .main-banner .buttons {
@@ -838,7 +839,7 @@ Banner Style
 }
 
 .main-banner .owl-banner {
-    margin-top: -40px;
+    margin-top: 72px;
 }
 
 .main-banner .owl-nav {
