@@ -1872,7 +1872,10 @@ Details Page Style
 }
 
 .current-bid .item .right-content {
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
     width: 100%;
 }
 
